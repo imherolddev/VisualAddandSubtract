@@ -14,7 +14,7 @@ import java.util.concurrent.ScheduledExecutorService;
  * @author Jason Hall - imherolddev
  * @since 1.0
  */
-public class CircleCanvas extends View {
+public class CircleView extends View {
 
     private int width, height;
     //grab circle color from preference
@@ -31,7 +31,7 @@ public class CircleCanvas extends View {
      * @param context The Context the view is running in, through which it can
      *                access the current theme, resources, etc.
      */
-    public CircleCanvas(Context context) {
+    public CircleView(Context context) {
 
         super(context);
 
